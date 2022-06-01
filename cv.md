@@ -37,9 +37,13 @@ Maximum subarray sum
    }
   ```
 
-**6. Study:**  [RSSchool](https://rs.school/js-stage0/), [JS basics](https://learn.javascript.ru/), [Youtube lessons of layout](https://www.youtube.com/channel)
+**6. Experience**
+Not yet ^_^
 
-**7. English:** 
+**7. Study:**  [RSSchool](https://rs.school/js-stage0/), [JS basics](https://learn.javascript.ru/), [Youtube lessons of layout](https://www.youtube.com/channel)
+
+**8. English:** 
 - Passed English language courses at BSUIR (B2 - intermediate);
 - usually watching english PODcasts;
 - the specifics of the work as Electrical Safety Engineer forces makes me read international standards.
+
