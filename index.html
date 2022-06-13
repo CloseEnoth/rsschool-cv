@@ -4,7 +4,11 @@
   <meta charset="UTF-8">
   <meta http-equiv="X-UA-Compatible" content="IE=edge">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
-  <title>Document</title>
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Fraunces:opsz@9..144&family=Space+Grotesk&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="./css/style.css">
+  <title>CV</title>
 </head>
 <body>
   <div class="wrapper">
@@ -12,13 +16,27 @@
       <div class="container">
         <nav class="header__nav">
           <ul class="header__list">
-            <div class="header__item">contacts</div>
-            <div class="header__item">summary</div>
-            <div class="header__item">skills</div>
-            <div class="header__item">code</div>
-            <div class="header__item">projects</div>
-            <div class="header__item">education</div>
-            <div class="header__item">english</div>
+            <li class="header__item">
+              <a href="#contacts">contacts</a>
+            </li>
+            <li class="header__item">
+              <a href="#summary">summary</a>
+            </li>
+            <li class="header__item">
+              <a href="#skills">skills</a>
+            </li>
+            <li class="header__item">
+              <a href="#code">code</a>
+            </li>
+            <li class="header__item">
+              <a href="#projects">projects</a>
+            </li>
+            <li class="header__item">
+              <a href="#education">education</a>
+            </li>
+            <li class="header__item">
+              <a href="#english">english</a>
+            </li>
           </ul>
         </nav>
       </div>
@@ -29,7 +47,7 @@
           <section class="main__title me">
             <div class="me__body">
               <div class="me__img">
-                <img src="./assets/img/123.jpg" alt="me">
+                <img src="./assets/img/1234.jpg" alt="me">
               </div>
               <div class="me__info">
                 <h1 class="me__title">denis prazdnikov</h1>
@@ -37,7 +55,7 @@
               </div>
             </div>
           </section>
-          <section class="main__section contacts">
+          <section id="contacts" class="main__section contacts">
             <h2 class="contacts__subtitle subtitle">contacts</h2>
             <ul class="contacts__list">
               <li>Minsk, Belarus</li>
@@ -47,17 +65,16 @@
               <li>Discord: CloseEnoth#4638</li>
             </ul>
           </section>
-          <section class="main__section summary">
+          <section id="summary" class="main__section summary">
             <h2 class="summary__subtitle subtitle">
               summary
             </h2>
             <p class="summary__text">
-              I've graduated from BSUIR and obnaited first stage in Infocommunication systems (standardization, certification and control of parameters).
               After my graduation i've got a job in Belarusian State Institute of Standardization and Certification as an Electrical Safety Engineer.
-              However, I realized that this place wasn't quite right for me and I needed to move on. so I decided to go into programming.
+              However, I realized that this place wasn't quite right for me and I needed to move on. So I started looking for something else and came across programming. 
             </p>
           </section>
-          <section class="main__section skills">
+          <section id="skills" class="main__section skills">
             <h2 class="skills__subtitle subtitle">skills</h2>
             <ul class="skills__list">
               <li>html</li>
@@ -68,13 +85,13 @@
               <li>Github</li>
             </ul>
           </section>
-          <section class="main__section code">
+          <section id="code" class="main__section code">
             <h2 class="code__subtitle subtitle">code</h2>
             <div class="code__img">
               <img src="./assets/img/codeExsample.PNG" alt="codeExsample">
             </div>
           </section>
-          <section class="main__section projects">
+          <section id="projects" class="main__section projects">
             <h2 class="projects__subtitle subtitle">projects</h2>
             <ul class="projects__list">
               <li>soon will be available :3</li>
@@ -82,13 +99,19 @@
               <li>soon will be available :3</li>
             </ul>
           </section>
-          <section class="main__section education">
-            <h2 class="education__subtitle subtitle">
-              education
+          <section id="courses" class="main__section courses">
+            <h2 class="courses__subtitle subtitle">
+              courses
             </h2>
-            <ul class="education__list">
+            <ul class="courses__list">
               <li>JS/FE Pre-school 2022Q1</li>
+              <li>JavaScript/Front-end school 2022Q1</li>
+              <li>Self-study: learn.JavaScript.ru</li>
             </ul>
+          </section>
+          <section class="main__section education">
+            <h2 class="education__subtitle subtitle">education</h2>
+            <p class="education__text">BSUIR and obnaited first stage in Infocommunication systems (standardization, certification and control of parameters)</p>
           </section>
           <section class="main__section english">
             <h2 class="english__subtitle subtitle">english</h2>
