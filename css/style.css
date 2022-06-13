@@ -76,7 +76,7 @@ h1, h2, h3, h4, h5, h6 {
   --secondary-color: hsl(0, 0%, 100%);
   --thrid-color: hsl(86, 65%, 70%);
   --third-color-dark:  hsl(123, 49%, 39%);
-  --primary-font: 400 24px/calc(24px * 118) "Space Grotesk", sans-serif;
+  --primary-font: 400 24px/30px "Space Grotesk", sans-serif;
   --secondary-font: 400 40px/30px "Arial", serif;
 }
 
@@ -170,6 +170,7 @@ html {
 }
 
 .main__section {
+  line-height: 45px;
   -webkit-transition: ease 1.5s;
   transition: ease 1.5s;
   position: relative;
@@ -203,11 +204,11 @@ html {
 }
 
 .main__section h2 {
-  margin-bottom: 20px;
+  margin-bottom: 30px;
 }
 
 .main__section ul li {
-  margin-bottom: 10px;
+  margin-bottom: 15px;
 }
 
 .main__section ul li:last-child {
@@ -272,6 +273,17 @@ html {
   color: var(--secondary-color);
 }
 
+.contacts__list {
+  -webkit-transition: ease 1s;
+  transition: ease 1s;
+}
+
+.contacts__list li a:hover {
+  -webkit-transition: ease 1s;
+  transition: ease 1s;
+  color: var(--primary-color);
+}
+
 .skills__list li {
   line-height: 40px;
   padding-left: 60px;
@@ -304,11 +316,20 @@ html {
 }
 
 .code__img {
-  max-width: 100%;
+  max-width: 95%;
 }
 
 .code__img img {
   width: 100%;
+}
+
+.code__img:hover {
+  max-width: 100%;
+  -webkit-transition: 1s linear;
+  transition: 1s linear;
+  border: 5px solid var(--secondary-color);
+  border-radius: 15px;
+  overflow: hidden;
 }
 
 .footer {
