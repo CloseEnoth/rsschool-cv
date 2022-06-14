@@ -119,18 +119,15 @@ h1, h2, h3, h4, h5, h6 {
   }
 }
 
-/*
 @media (max-width: 540px) {
   :root {
-    --primary-font: 400 19px/26px "Space Grotesk", sans-serif;
-    --secondary-font: 400 32px/28px "Arial", serif;
-    --name-font: 400 40px/56px "Arial", serif;
-
-    --primary-padding: 0 16px;
-
+    --primary-font: 400 14px/18px "Space Grotesk", sans-serif;
+    --secondary-font: 400 20px/22px "Arial", serif;
+    --name-font: 400 22px/30px "Arial", serif;
+    --primary-padding: 0 8px;
   }
 }
-*/
+
 html {
   scroll-behavior: smooth;
 }
@@ -201,6 +198,23 @@ html {
     -webkit-box-flex: 0;
         -ms-flex: 0 1 70px;
             flex: 0 1 70px;
+  }
+}
+
+@media (max-width: 540px) {
+  .header__list {
+    -ms-flex-wrap: wrap;
+        flex-wrap: wrap;
+    -webkit-box-pack: center;
+        -ms-flex-pack: center;
+            justify-content: center;
+    text-align: center;
+  }
+  .header__item {
+    -webkit-box-flex: 0;
+        -ms-flex: 0 1 25%;
+            flex: 0 1 25%;
+    margin-right: 0px;
   }
 }
 
