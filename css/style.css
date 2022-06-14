@@ -490,6 +490,10 @@ html {
       justify-content: space-around;
 }
 
+.footer__item:first-child:hover {
+  color: var(--secondary-color);
+}
+
 .footer__item:last-child {
   max-width: 150px;
 }
