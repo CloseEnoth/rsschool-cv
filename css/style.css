@@ -74,7 +74,7 @@ h1, h2, h3, h4, h5, h6 {
 :root {
   --primary-color: hsl(202, 46%, 16%);
   --secondary-color: hsl(0, 0%, 100%);
-  --thrid-color: hsl(86, 65%, 70%);
+  --third-color: hsl(86, 65%, 70%);
   --third-color-dark:  hsl(123, 49%, 39%);
   --primary-font: 400 24px/30px "Space Grotesk", sans-serif;
   --secondary-font: 400 40px/30px "Arial", serif;
@@ -133,6 +133,7 @@ html {
 }
 
 .wrapper {
+  min-height: 100vh;
   margin: 0 auto;
   display: -webkit-box;
   display: -ms-flexbox;
@@ -161,7 +162,7 @@ html {
       -ms-flex: 0 1 100px;
           flex: 0 1 100px;
   padding: var(--primary-padding);
-  background-color: var(--thrid-color);
+  background-color: var(--third-color);
   display: -webkit-box;
   display: -ms-flexbox;
   display: flex;
@@ -250,7 +251,7 @@ html {
   margin-bottom: 50px;
   width: 45%;
   border-radius: 15px;
-  background-color: var(--thrid-color);
+  background-color: var(--third-color);
   color: var(--primary-color);
 }
 
@@ -478,12 +479,13 @@ html {
 }
 
 .footer {
+  flex: 0 1 100px;
   padding: var(--primary-padding);
-  background-color: var(--thrid-color);
+  background-color: var(--third-color);
 }
 
 .footer__body {
-  height: 100px;
+  min-height: 100px;
   display: -webkit-box;
   display: -ms-flexbox;
   display: flex;
